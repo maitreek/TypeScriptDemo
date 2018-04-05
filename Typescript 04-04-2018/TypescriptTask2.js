@@ -75,4 +75,4 @@ var Professor = /** @class */ (function (_super) {
 var prof = new Professor(2001, 'Huang', 'm', 1970, 1, 1);
 console.log('num:' + prof.getNum() + ' name:' + prof.getName() + ' gender:' + prof.getGender() + ' birthday:' + prof.getYear() + '/' + prof.getMonth() + '/' + prof.getDate());
 prof.modifyBirthdate(2001, 'Huang', 'm', 1970, 1, 1, 1994, 5, 26);
-console.log('Date has been changed to: ' + prof.getYear() + '/' + prof.getMonth() + '/' + prof.getDate());
+console.log('Birth Date has been changed to: ' + prof.getYear() + '/' + prof.getMonth() + '/' + prof.getDate());
