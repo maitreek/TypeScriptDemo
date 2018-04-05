@@ -79,5 +79,4 @@ class Professor extends Teacher {
 var prof = new Professor(2001, 'Huang', 'm', 1970, 1, 1);
 prof.modifyBirthdate(2001, 'Huang', 'm', 1970, 1, 1, 1994, 5, 26);
 console.log('Date has been changed to: ' + prof.getYear() + '/' + prof.getMonth() + '/' + prof.getDate());
-// console.log(prof.getName(), prof.getNum(), prof.getGender());
 
